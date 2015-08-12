@@ -19,6 +19,10 @@ app.get('/', function ( req, res){
 	res.redirect('/cheeses')
 })
 
+app.put('/cheeses/:id', function (req.res){
+	// this puts stuff in 
+})
+
 app.get('/cheeses', function (req, res){
 	//get all the cheeses from the database and render them to an ejs file
 })
